@@ -89,6 +89,7 @@ main>section>p {
 
 .order-button {
     display: flex;
+    color: black;
     justify-content: center;
     margin-top: 5vh;
     width: 10vw;
