@@ -105,6 +105,7 @@ main>section>p {
 }
 
 .order-button>a {
+    color:black;
     align-self: center;
     text-decoration: none;
     font-size: 100%;
