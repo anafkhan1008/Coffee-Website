@@ -180,6 +180,7 @@ main>section>p {
 }
 
 .learn-more:hover {
+    color : black;
     width: 12vw;
     cursor: pointer;
     letter-spacing: 3px;
