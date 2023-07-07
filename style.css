@@ -4,8 +4,6 @@
 
 }
 
-
-
 header {
     position: sticky;
     top: 0;
@@ -35,7 +33,7 @@ nav>a {
 }
 
 nav>a:hover {
-    color: rgb(255, 172, 7);
+    color: wheat;
     transform: scale(1.1);
     transition: transform .2s;
 }
@@ -99,12 +97,23 @@ main>section>p {
 
 
 .icons {
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 10%;
     height: 100%;
+}
+
+.icons > i {
+    color: white;
+    transition: backgground-color 1s ease-out;
+}
+
+.icons > i:hover {
+    color: #d3ad7f;
+    transform: scale(1.1);
 }
 
 .fa-solid {
@@ -490,3 +499,50 @@ main>section>p {
 
 }
 
+footer {
+    background-color: rgb(19, 19, 26);
+    height: 30vh;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social > i {
+    margin: 15px;
+    border: 1px solid rgb(102, 96, 96);
+    padding: 10px;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+}
+
+.social > i:hover{
+    background-color: #d3ad7f;
+    transform: scale(1.2);
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.link > a{
+    font-size: large;
+    text-decoration: none;
+    color: #e5e5e5;
+    border: 1px solid rgb(129, 120, 120);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    width: max-content;
+    transition: background-color 0.5s ease;
+}
+
+.link > a:hover{
+    background-color: #d3ad7f;
+}
