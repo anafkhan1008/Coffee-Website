@@ -114,6 +114,7 @@ main>section>p {
 .icons > i:hover {
     color: #d3ad7f;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .fa-solid {
