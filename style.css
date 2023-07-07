@@ -521,6 +521,7 @@ footer {
 .social > i:hover{
     background-color: #d3ad7f;
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .link{
@@ -545,4 +546,5 @@ footer {
 
 .link > a:hover{
     background-color: #d3ad7f;
+    cursor: pointer;
 }
