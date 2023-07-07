@@ -106,13 +106,10 @@ main>section>p {
 }
 
 .order-button>a {
-    color: black;
     align-self: center;
     text-decoration: none;
     font-size: 100%;
     transition: letter-spacing 0.2s ease-in-out;
-
-
 }
 
 .icons {
@@ -183,6 +180,7 @@ main>section>p {
 }
 
 .learn-more:hover {
+    color : black;
     width: 12vw;
     cursor: pointer;
     letter-spacing: 3px;
