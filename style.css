@@ -150,7 +150,7 @@ main>section>p {
 }
 
 .section_one>img {
-    width: auto;
+    width: 50vw;
     height: 60vh;
 }
 
@@ -172,6 +172,7 @@ main>section>p {
 
 .learn-more {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 5vh;
     width: 10vw;
